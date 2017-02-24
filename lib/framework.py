@@ -16,7 +16,7 @@ class framework:
     def __init__(self):
         self.ip = ''
         self.ips = ''
-        self.url = 'http://www.huayuanqg.com/'
+        self.url = ''
         self.urls = 'result.txt'
         self.exploit = 'ALL'
         self.thread = '20'

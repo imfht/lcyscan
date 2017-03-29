@@ -107,7 +107,7 @@ blog:https://phpinfo.me
             info = 'thread => ='+cmds[1]
             color.cprint(info,CYAN)
     def lexploit(self,cmds):
-        filename = os.path.split(os.path.realpath(__file__))[0].replace('lib','result\\') + datetime.now().date().strftime('%Y%m%d') + "_"+ str(random.randint(1, 88888)) + ".html"
+        filename = os.path.split(os.path.realpath(__file__))[0].replace('lib','result/') + datetime.now().date().strftime('%Y%m%d') + "_"+ str(random.randint(1, 88888)) + ".html"
         saveHead(filename)
         website = getWebsiteExp()
         servers = getServerExp()
